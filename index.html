@@ -1,0 +1,1244 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ADRIANO DA SILVA MOTA — Vestuário e Acessórios</title>
+  
+  <!-- Meta Tag Oficial do Meta Business Manager -->
+  <meta name="facebook-domain-verification" content="8kt93i742q0nz02g6tnpz94oi13el1" />
+  
+  <meta name="description" content="Comércio varejista de artigos do vestuário e acessórios em Fortaleza/CE. CNPJ: 97.483.085/0001-48." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,800;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ADRIANO DA SILVA MOTA",
+    "legalName": "ADRIANO DA SILVA MOTA",
+    "telephone": "(21) 7990-6036",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "AV BEZERRA DE MENEZES, 2450, PISO 2 LOJA 506 - PRESIDENTE KENNEDY",
+      "addressLocality": "Fortaleza",
+      "addressRegion": "CE",
+      "postalCode": "60325-000",
+      "addressCountry": "BR"
+    },
+    "description": "Comércio varejista de artigos do vestuário e acessórios em Fortaleza/CE",
+    "openingDate": "1994-04-26"
+  }
+  </script>
+
+  <style>
+    :root {
+      --asphalt: #141618;
+      --charcoal: #1e2124;
+      --carbon: #252a2e;
+      --steel: #2f363d;
+      --amber: #e8850a;
+      --amber-bright: #f59e2b;
+      --amber-dim: #b86508;
+      --amber-glow: rgba(232, 133, 10, 0.15);
+      --slate: #8a9099;
+      --mist: #bfc4ca;
+      --snow: #eef0f2;
+      --white: #f8f9fa;
+      --border: rgba(232, 133, 10, 0.18);
+      --border-dim: rgba(255,255,255,0.07);
+      --shadow: rgba(0,0,0,0.45);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--asphalt);
+      color: var(--snow);
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+
+    /* Textura de grade suave */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.015) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.015) 1px, transparent 1px);
+      background-size: 48px 48px;
+    }
+
+    .container { max-width: 1140px; margin: 0 auto; padding: 0 32px; position: relative; z-index: 1; }
+
+    /* ─── HEADER ─── */
+    header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: rgba(20, 22, 24, 0.94);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border-dim);
+      transition: border-color 0.3s;
+    }
+    header.lit { border-bottom-color: var(--border); }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+      gap: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-decoration: none;
+      color: inherit;
+    }
+    .brand-badge {
+      width: 42px; height: 42px;
+      background: var(--amber);
+      color: var(--asphalt);
+      border-radius: 6px;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 17px;
+      letter-spacing: 0.04em;
+      flex-shrink: 0;
+    }
+    .brand-text .razao {
+      font-size: 12.5px;
+      font-weight: 600;
+      color: var(--snow);
+      letter-spacing: 0.01em;
+      line-height: 1.3;
+    }
+    .brand-text .sub {
+      font-size: 10.5px;
+      color: var(--slate);
+      font-weight: 400;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    nav { display: flex; gap: 2px; align-items: center; }
+    nav a {
+      color: var(--slate);
+      text-decoration: none;
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 400;
+      transition: all 0.2s;
+      letter-spacing: 0.02em;
+    }
+    nav a:hover { color: var(--snow); background: var(--carbon); }
+
+    /* ─── BOTÕES ─── */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 26px;
+      border-radius: 6px;
+      border: none;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.25s;
+      letter-spacing: 0.03em;
+    }
+    .btn-amber {
+      background: var(--amber);
+      color: var(--asphalt);
+    }
+    .btn-amber:hover { background: var(--amber-bright); transform: translateY(-1px); box-shadow: 0 6px 24px rgba(232,133,10,0.35); }
+    
+    .btn-whats {
+      background: #25d366;
+      color: #fff;
+    }
+    .btn-whats:hover { background: #1aaa52; transform: translateY(-1px); box-shadow: 0 6px 20px rgba(37,211,102,0.3); }
+    
+    .btn-ghost {
+      background: transparent;
+      color: var(--snow);
+      border: 1px solid var(--border-dim);
+    }
+    .btn-ghost:hover { border-color: var(--amber); color: var(--amber); }
+
+    /* ─── HERO ─── */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 110px 0 80px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-lines {
+      position: absolute;
+      right: 0; top: 0;
+      width: 55%;
+      height: 100%;
+      z-index: 0;
+      overflow: hidden;
+    }
+    .hero-lines::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: var(--carbon);
+      clip-path: polygon(18% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .hero-lines::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      clip-path: polygon(18% 0%, 100% 0%, 100% 100%, 0% 100%);
+      background: repeating-linear-gradient(
+        -65deg,
+        transparent,
+        transparent 28px,
+        rgba(232,133,10,0.04) 28px,
+        rgba(232,133,10,0.04) 29px
+      );
+    }
+
+    .hero-accent-bar {
+      position: absolute;
+      right: 45%;
+      top: 10%;
+      bottom: 10%;
+      width: 3px;
+      background: linear-gradient(180deg, transparent, var(--amber) 30%, var(--amber) 70%, transparent);
+      z-index: 1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 620px;
+      animation: fadeUp 0.9s ease both;
+    }
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 6px 14px 6px 10px;
+      background: var(--carbon);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--amber);
+      margin-bottom: 28px;
+    }
+    .eyebrow-dot {
+      width: 7px; height: 7px;
+      background: var(--amber);
+      border-radius: 50%;
+      animation: blink 2.4s ease-in-out infinite;
+    }
+
+    .hero h1 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(2.8rem, 6.5vw, 5.2rem);
+      font-weight: 800;
+      line-height: 0.96;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+    .hero h1 .accent { color: var(--amber); }
+
+    .hero-razao {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(1rem, 2vw, 1.35rem);
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--slate);
+      margin-bottom: 28px;
+      margin-top: 12px;
+    }
+
+    .hero-desc {
+      font-size: 15.5px;
+      color: var(--mist);
+      max-width: 500px;
+      margin-bottom: 40px;
+      line-height: 1.8;
+      font-weight: 300;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .hero-stats {
+      display: flex;
+      gap: 0;
+      margin-top: 56px;
+      padding-top: 36px;
+      border-top: 1px solid var(--border-dim);
+    }
+    .hero-stat {
+      padding-right: 36px;
+      margin-right: 36px;
+      border-right: 1px solid var(--border-dim);
+    }
+    .hero-stat:last-child { border-right: none; padding-right: 0; margin-right: 0; }
+    .hero-stat-val {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--amber);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .hero-stat-lbl {
+      font-size: 11px;
+      color: var(--slate);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 500;
+    }
+
+    /* ─── SECTIONS PADRÃO ─── */
+    section { padding: 96px 0; position: relative; z-index: 1; }
+
+    .sec-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--amber);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .sec-label::before {
+      content: '';
+      width: 24px; height: 2px;
+      background: var(--amber);
+      flex-shrink: 0;
+    }
+    .sec-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--white);
+      letter-spacing: 0.01em;
+      line-height: 1.05;
+      margin-bottom: 14px;
+    }
+    .sec-sub {
+      font-size: 14.5px;
+      color: var(--slate);
+      max-width: 460px;
+      font-weight: 300;
+    }
+
+    .sec-header { margin-bottom: 56px; }
+    .sec-header-center { text-align: center; }
+    .sec-header-center .sec-label { justify-content: center; }
+    .sec-header-center .sec-label::before { display: none; }
+    .sec-header-center .sec-label::after {
+      content: '';
+      width: 24px; height: 2px;
+      background: var(--amber);
+      flex-shrink: 0;
+    }
+    .sec-header-center .sec-sub { margin: 0 auto; }
+
+    /* ─── SOBRE A EMPRESA (Grid e Tabelas) ─── */
+    #sobre { background: var(--charcoal); }
+
+    .sobre-layout {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 64px;
+      align-items: start;
+    }
+
+    .info-table {
+      border: 1px solid var(--border-dim);
+      border-radius: 8px;
+      overflow: hidden;
+      margin-top: 32px;
+    }
+    .info-row {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      border-bottom: 1px solid var(--border-dim);
+    }
+    .info-row:last-child { border-bottom: none; }
+    .info-key {
+      padding: 14px 18px;
+      font-size: 10.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--amber);
+      font-weight: 600;
+      background: rgba(232,133,10,0.05);
+      border-right: 1px solid var(--border-dim);
+      display: flex;
+      align-items: center;
+    }
+    .info-val {
+      padding: 14px 18px;
+      font-size: 13.5px;
+      color: var(--mist);
+      font-weight: 400;
+      display: flex;
+      align-items: center;
+    }
+
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .kpi-card {
+      background: var(--steel);
+      border: 1px solid var(--border-dim);
+      border-radius: 10px;
+      padding: 28px 22px;
+      text-align: center;
+      transition: all 0.3s;
+      position: relative;
+      overflow: hidden;
+    }
+    .kpi-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: var(--amber);
+      transform: scaleX(0);
+      transition: transform 0.35s;
+      transform-origin: left;
+    }
+    .kpi-card:hover { border-color: var(--border); transform: translateY(-4px); box-shadow: 0 12px 36px rgba(0,0,0,0.4); }
+    .kpi-card:hover::before { transform: scaleX(1); }
+    .kpi-val {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: var(--amber);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+    .kpi-lbl {
+      font-size: 11px;
+      color: var(--slate);
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      font-weight: 500;
+    }
+
+    /* ─── SERVIÇOS, MARCAS E SUBMARCAS ─── */
+    #servicos, #submarcas { background: var(--asphalt); }
+    #marcas { background: var(--charcoal); }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+    }
+    .svc-card {
+      background: var(--carbon);
+      border: 1px solid var(--border-dim);
+      border-radius: 10px;
+      padding: 36px 28px;
+      transition: all 0.35s;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .svc-card::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--amber), var(--amber-bright));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.4s;
+    }
+    .svc-card:hover {
+      border-color: var(--border);
+      transform: translateY(-6px);
+      box-shadow: 0 20px 56px rgba(0,0,0,0.5);
+    }
+    .svc-card:hover::after { transform: scaleX(1); }
+
+    .svc-num {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 64px;
+      font-weight: 800;
+      color: rgba(255,255,255,0.03);
+      line-height: 1;
+      position: absolute;
+      right: 20px; top: 16px;
+      letter-spacing: -0.03em;
+      transition: color 0.3s;
+      z-index: 0;
+    }
+    .svc-card:hover .svc-num { color: rgba(232,133,10,0.08); }
+
+    .svc-icon {
+      width: 52px; height: 52px;
+      border-radius: 8px;
+      background: var(--amber-glow);
+      border: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 24px;
+      margin-bottom: 24px;
+      position: relative;
+      z-index: 1;
+    }
+    .svc-card h3 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      color: var(--snow);
+      margin-bottom: 12px;
+      line-height: 1.2;
+      position: relative;
+      z-index: 1;
+    }
+    .svc-card p {
+      font-size: 14px;
+      color: var(--slate);
+      line-height: 1.75;
+      font-weight: 300;
+      margin-bottom: 24px;
+      flex-grow: 1;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Badge Atendente WhatsApp */
+    .atendente-badge {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 16px;
+      background: rgba(37, 211, 102, 0.08);
+      border: 1px solid rgba(37, 211, 102, 0.15);
+      border-radius: 6px;
+      font-size: 11.5px;
+      color: #25d366;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+      transition: all 0.2s;
+      margin-top: auto;
+      text-align: left;
+      position: relative;
+      z-index: 1;
+    }
+    .atendente-badge:hover {
+      background: rgba(37, 211, 102, 0.15);
+      border-color: rgba(37, 211, 102, 0.3);
+    }
+    .atendente-badge svg {
+      flex-shrink: 0;
+      width: 18px;
+      height: 18px;
+    }
+
+    /* ─── CONTATO ─── */
+    #contato { background: var(--charcoal); }
+
+    .contact-layout {
+      display: grid;
+      grid-template-columns: 380px 1fr;
+      gap: 40px;
+      align-items: start;
+    }
+
+    .contact-cards { display: flex; flex-direction: column; gap: 14px; }
+    .contact-card {
+      background: var(--steel);
+      border: 1px solid var(--border-dim);
+      border-radius: 10px;
+      padding: 20px 22px;
+      transition: border-color 0.25s;
+    }
+    .contact-card:hover { border-color: var(--border); }
+    .contact-card-label {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--amber);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .contact-card p, .contact-card a {
+      font-size: 14px;
+      color: var(--mist);
+      font-weight: 400;
+      text-decoration: none;
+      line-height: 1.55;
+    }
+    .contact-card a:hover { color: var(--amber); }
+
+    .contact-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 4px;
+    }
+
+    .map-wrap {
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid var(--border-dim);
+      box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+    }
+    .map-wrap iframe { width: 100%; height: 380px; border: 0; display: block; }
+
+    /* ─── FOOTER ─── */
+    footer {
+      background: #0e1012;
+      color: var(--slate);
+      padding: 72px 0 0;
+      position: relative;
+      z-index: 1;
+      border-top: 1px solid var(--border-dim);
+    }
+    footer::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--amber), var(--amber-bright), var(--amber), transparent);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 48px;
+      padding-bottom: 56px;
+      border-bottom: 1px solid var(--border-dim);
+    }
+    .footer-brand-name {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--snow);
+      letter-spacing: 0.04em;
+      margin-bottom: 12px;
+      line-height: 1.25;
+    }
+    .footer-brand p { font-size: 13px; max-width: 260px; line-height: 1.7; font-weight: 300; }
+
+    .footer-col h4 {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--amber);
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    .footer-col a {
+      display: block;
+      color: var(--slate);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 5px 0;
+      transition: color 0.2s;
+      font-weight: 300;
+    }
+    .footer-col a:hover { color: var(--snow); }
+
+    .footer-bottom {
+      padding: 24px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 12px;
+      color: rgba(138,144,153,0.5);
+    }
+
+    /* ─── FLOATING WHATS ─── */
+    .fab-whats {
+      position: fixed;
+      bottom: 28px; right: 28px;
+      width: 56px; height: 56px;
+      background: #25d366;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 6px 24px rgba(37,211,102,0.45);
+      z-index: 90;
+      transition: all 0.3s;
+      text-decoration: none;
+    }
+    .fab-whats:hover { background: #1aaa52; transform: scale(1.1); }
+    .fab-whats svg { width: 28px; height: 28px; fill: #fff; }
+
+    /* ─── MODAIS ─── */
+    .modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.75);
+      backdrop-filter: blur(8px);
+      z-index: 200;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+    }
+    .modal.open { display: flex; }
+    .modal-panel {
+      background: var(--charcoal);
+      border: 1px solid var(--border);
+      padding: 48px;
+      border-radius: 12px;
+      max-width: 560px;
+      width: 100%;
+      max-height: 80vh;
+      overflow: auto;
+      position: relative;
+      animation: scaleIn 0.3s ease;
+    }
+    .modal-panel h2 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--snow);
+      margin-bottom: 18px;
+      letter-spacing: 0.03em;
+    }
+    .modal-panel p { font-size: 14px; color: var(--slate); line-height: 1.8; font-weight: 300; }
+    .close-btn {
+      position: absolute; right: 18px; top: 18px;
+      width: 34px; height: 34px;
+      background: var(--steel);
+      border: 1px solid var(--border-dim);
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 18px;
+      color: var(--slate);
+      display: flex; align-items: center; justify-content: center;
+      transition: all 0.2s;
+    }
+    .close-btn:hover { background: var(--carbon); color: var(--snow); }
+
+    /* ─── SCROLL ANIM ─── */
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.75s ease, transform 0.75s ease; }
+    .reveal.in { opacity: 1; transform: translateY(0); }
+    .reveal-d1 { transition-delay: 0.1s; }
+    .reveal-d2 { transition-delay: 0.2s; }
+    .reveal-d3 { transition-delay: 0.3s; }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(32px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    @keyframes scaleIn {
+      from { opacity: 0; transform: scale(0.96); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 960px) {
+      .sobre-layout { grid-template-columns: 1fr; gap: 40px; }
+      .contact-layout { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+      .hero-lines { width: 40%; }
+      .hero-accent-bar { right: 60%; }
+    }
+    @media (max-width: 680px) {
+      nav { display: none; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+      .hero-stats { flex-direction: column; gap: 20px; }
+      .hero-stat { border-right: none; padding-right: 0; margin-right: 0; border-bottom: 1px solid var(--border-dim); padding-bottom: 20px; }
+      .hero-stat:last-child { border-bottom: none; padding-bottom: 0; }
+      .kpi-grid { grid-template-columns: 1fr 1fr; }
+      .info-row { grid-template-columns: 1fr; }
+      .info-key { border-right: none; border-bottom: 1px solid var(--border-dim); }
+    }
+  </style>
+</head>
+<body>
+
+<header id="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <a class="brand" href="#topo">
+        <div class="brand-badge">AM</div>
+        <div class="brand-text">
+          <div class="razao">ADRIANO DA SILVA MOTA</div>
+          <div class="sub">Vestuário & Acessórios — Fortaleza/CE</div>
+        </div>
+      </a>
+      <nav>
+        <a href="#topo">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#marcas">Estrutura</a>
+        <a href="#submarcas">Submarcas</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<section class="hero" id="topo">
+  <div class="hero-lines"></div>
+  <div class="hero-accent-bar"></div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span class="eyebrow-dot"></span>
+        Vestuário · Acessórios · Moda · Estilo
+      </div>
+
+      <h1>Encontre o <span class="accent">Seu Estilo</span><br>Com Qualidade<br>E Conforto.</h1>
+
+      <div class="hero-razao">ADRIANO DA SILVA MOTA</div>
+
+      <p class="hero-desc">
+        Especialistas no comércio varejista de artigos do vestuário e acessórios em Fortaleza/CE. As melhores coleções para o seu dia a dia.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#servicos" class="btn btn-amber">Ver Serviços</a>
+        <a href="https://wa.me/552179906036" target="_blank" rel="noopener" class="btn btn-whats">
+          <svg width="17" height="17" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp
+        </a>
+        <a href="tel:+552179906036" class="btn btn-ghost">
+          (21) 7990-6036
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-val" id="anos-mercado">32</div>
+          <div class="hero-stat-lbl">Anos no Mercado</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-val">100%</div>
+          <div class="hero-stat-lbl">Comprometimento</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-val">CE</div>
+          <div class="hero-stat-lbl">Fortaleza e Região</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sobre">
+  <div class="container">
+    <div class="sec-header reveal">
+      <div class="sec-label">Quem Somos</div>
+      <h2 class="sec-title">Sobre a Empresa</h2>
+      <p class="sec-sub">Uma empresa estruturada para atender as tendências e exigências do mercado da moda com tradição e qualidade.</p>
+    </div>
+
+    <div class="sobre-layout">
+      <div class="reveal">
+        <p style="font-size:15px;color:var(--mist);line-height:1.85;font-weight:300;margin-bottom:16px;">
+          A <strong style="color:var(--snow);font-weight:600;">ADRIANO DA SILVA MOTA</strong> atua de forma consolidada no mercado de Fortaleza/CE desde 1994, oferecendo excelência no varejo de moda.
+        </p>
+        <p style="font-size:15px;color:var(--mist);line-height:1.85;font-weight:300;">
+          Com décadas de experiência, nossa atuação é focada em oferecer artigos de vestuário atualizados, complementos elegantes e atendimento rápido, sempre priorizando o conforto e a satisfação do consumidor.
+        </p>
+
+        <div class="info-table">
+          <div class="info-row">
+            <div class="info-key">Razão Social</div>
+            <div class="info-val">ADRIANO DA SILVA MOTA[cite: 7]</div>
+          </div>
+          <div class="info-row">
+            <div class="info-key">CNPJ</div>
+            <div class="info-val">97.483.085/0001-48[cite: 7]</div>
+          </div>
+          <div class="info-row">
+            <div class="info-key">Abertura</div>
+            <div class="info-val">26/04/1994[cite: 7]</div>
+          </div>
+          <div class="info-row">
+            <div class="info-key">Porte</div>
+            <div class="info-val">Micro Empresa (ME)[cite: 7]</div>
+          </div>
+          <div class="info-row">
+            <div class="info-key">Natureza</div>
+            <div class="info-val">Empresário (Individual)[cite: 7]</div>
+          </div>
+          <div class="info-row">
+            <div class="info-key">Atividade Principal</div>
+            <div class="info-val">Comércio varejista de artigos do vestuário e acessórios[cite: 7]</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="kpi-grid reveal reveal-d1">
+        <div class="kpi-card">
+          <div class="kpi-val">B2C</div>
+          <div class="kpi-lbl">Atendimento Varejo</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-val">100%</div>
+          <div class="kpi-lbl">Qualidade</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-val">ME</div>
+          <div class="kpi-lbl">Micro Empresa[cite: 7]</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-val">CE</div>
+          <div class="kpi-lbl">Fortaleza (Matriz)[cite: 7]</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="servicos">
+  <div class="container">
+    <div class="sec-header sec-header-center reveal">
+      <div class="sec-label">O Que Fazemos</div>
+      <h2 class="sec-title">Nossos Serviços</h2>
+      <p class="sec-sub">Soluções completas em vestuário e acessórios para renovar o seu guarda-roupa.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="svc-card reveal">
+        <span class="svc-num">01</span>
+        <div class="svc-icon">👕</div>
+        <h3>Moda Feminina e Masculina</h3>
+        <p>Comércio especializado de roupas para todos os estilos, com peças confortáveis que acompanham as tendências do mercado.</p>
+        <a href="https://wa.me/552179906036" class="atendente-badge" target="_blank">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span style="line-height: 1.3;">ATENDENTE OFICIAL:<br>TIME COMERCIAL</span>
+        </a>
+      </div>
+
+      <div class="svc-card reveal reveal-d1">
+        <span class="svc-num">02</span>
+        <div class="svc-icon">💍</div>
+        <h3>Acessórios Modernos</h3>
+        <p>Complemente seu visual com nossa linha selecionada de bolsas, cintos e acessórios para o uso diário ou ocasiões especiais.</p>
+        <a href="https://wa.me/552179906036" class="atendente-badge" target="_blank">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span style="line-height: 1.3;">ATENDENTE OFICIAL:<br>EQUIPE COMERCIAL</span>
+        </a>
+      </div>
+
+      <div class="svc-card reveal reveal-d2">
+        <span class="svc-num">03</span>
+        <div class="svc-icon">💎</div>
+        <h3>Consultoria de Estilo</h3>
+        <p>Atendimento focado em auxiliar na escolha das melhores composições de looks para o seu biotipo e necessidade.</p>
+        <a href="https://wa.me/552179906036" class="atendente-badge" target="_blank">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span style="line-height: 1.3;">ATENDENTE OFICIAL:<br>TIME COMERCIAL</span>
+        </a>
+      </div>
+
+      <div class="svc-card reveal">
+        <span class="svc-num">04</span>
+        <div class="svc-icon">👖</div>
+        <h3>Roupas Casuais</h3>
+        <p>A mais variada linha de moda para o seu dia a dia, aliando bom gosto, custo-benefício e caimento excelente.</p>
+        <a href="https://wa.me/552179906036" class="atendente-badge" target="_blank">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span style="line-height: 1.3;">ATENDENTE OFICIAL:<br>EQUIPE COMERCIAL</span>
+        </a>
+      </div>
+
+      <div class="svc-card reveal reveal-d1">
+        <span class="svc-num">05</span>
+        <div class="svc-icon">✨</div>
+        <h3>Moda Festiva</h3>
+        <p>Opções elegantes e arrojadas para eventos e ocasiões especiais, garantindo que você seja o destaque.</p>
+        <a href="https://wa.me/552179906036" class="atendente-badge" target="_blank">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span style="line-height: 1.3;">ATENDENTE OFICIAL:<br>TIME COMERCIAL</span>
+        </a>
+      </div>
+
+      <div class="svc-card reveal reveal-d2">
+        <span class="svc-num">06</span>
+        <div class="svc-icon">🤝</div>
+        <h3>Atendimento Rápido</h3>
+        <p>Consulte a disponibilidade de peças, numerações e cores de forma humanizada e direta pelo WhatsApp corporativo.</p>
+        <a href="https://wa.me/552179906036" class="atendente-badge" target="_blank">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span style="line-height: 1.3;">ATENDENTE OFICIAL:<br>EQUIPE COMERCIAL</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="marcas">
+  <div class="container">
+    <div class="sec-header sec-header-center reveal">
+      <div class="sec-label">Nossos Pilares</div>
+      <h2 class="sec-title">Estrutura de Marcas</h2>
+      <p class="sec-sub">Departamentos segmentados para focar em qualidade e agilidade na moda.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="svc-card reveal">
+        <div class="svc-icon">🛍️</div>
+        <h3>Setor de Varejo de Moda</h3>
+        <p>Divisão responsável pela seleção cuidadosa de peças atualizadas que conversam com o estilo atual.</p>
+        <a href="https://wa.me/552179906036" class="atendente-badge" target="_blank">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span style="line-height: 1.3;">ATENDENTE OFICIAL:<br>TIME COMERCIAL</span>
+        </a>
+      </div>
+
+      <div class="svc-card reveal reveal-d1">
+        <div class="svc-icon">💍</div>
+        <h3>Setor de Acessórios</h3>
+        <p>Curadoria especializada de adornos femininos e masculinos para realçar detalhes no seu dia a dia.</p>
+        <a href="https://wa.me/552179906036" class="atendente-badge" target="_blank">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span style="line-height: 1.3;">ATENDENTE OFICIAL:<br>EQUIPE COMERCIAL</span>
+        </a>
+      </div>
+
+      <div class="svc-card reveal reveal-d2">
+        <div class="svc-icon">✨</div>
+        <h3>Setor de Qualidade</h3>
+        <p>Acompanhamento rigoroso da confecção, tecidos e do acabamento para garantir satisfação plena do cliente.</p>
+        <a href="https://wa.me/552179906036" class="atendente-badge" target="_blank">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span style="line-height: 1.3;">ATENDENTE OFICIAL:<br>TIME COMERCIAL</span>
+        </a>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-icon">💬</div>
+        <h3>Setor de Relacionamento</h3>
+        <p>Atendimento exclusivo para organizar encomendas, esclarecer dúvidas e fechar pedidos via WhatsApp.</p>
+        <a href="https://wa.me/552179906036" class="atendente-badge" target="_blank">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span style="line-height: 1.3;">ATENDENTE OFICIAL:<br>EQUIPE COMERCIAL</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="submarcas">
+  <div class="container">
+    <div class="sec-header sec-header-center reveal">
+      <div class="sec-label">Divisões de Negócio</div>
+      <h2 class="sec-title">SUBMARCAS OFICIAIS</h2>
+      <p class="sec-sub">Nossas marcas secundárias atuando para levar o melhor produto até você.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="svc-card reveal">
+        <div class="svc-icon">🏬</div>
+        <h3>FILL SETE</h3>
+        <p>Nossa marca fantasia em destaque, oferecendo as coleções mais procuradas e prestigiadas do varejo atual.</p>
+        <a href="https://wa.me/552179906036" class="atendente-badge" target="_blank">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span style="line-height: 1.3;">ATENDENTE OFICIAL:<br>TIME COMERCIAL</span>
+        </a>
+      </div>
+
+      <div class="svc-card reveal reveal-d1">
+        <div class="svc-icon">👕</div>
+        <h3>AS Casual Wear</h3>
+        <p>Linha de roupas focada inteiramente em conforto e praticidade sem perder a essência da modernidade e bom gosto.</p>
+        <a href="https://wa.me/552179906036" class="atendente-badge" target="_blank">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span style="line-height: 1.3;">ATENDENTE OFICIAL:<br>EQUIPE COMERCIAL</span>
+        </a>
+      </div>
+
+      <div class="svc-card reveal reveal-d2">
+        <div class="svc-icon">💎</div>
+        <h3>AS Acessórios Premium</h3>
+        <p>Submarca voltada para a comercialização de complementos de luxo e peças exclusivas para datas marcantes.</p>
+        <a href="https://wa.me/552179906036" class="atendente-badge" target="_blank">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span style="line-height: 1.3;">ATENDENTE OFICIAL:<br>TIME COMERCIAL</span>
+        </a>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-icon">💬</div>
+        <h3>AS Suporte e Vendas</h3>
+        <p>Núcleo focado no acolhimento de clientes VIPs, organização de reservas de peças e atendimento preferencial.</p>
+        <a href="https://wa.me/552179906036" class="atendente-badge" target="_blank">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span style="line-height: 1.3;">ATENDENTE OFICIAL:<br>EQUIPE COMERCIAL</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contato">
+  <div class="container">
+    <div class="sec-header reveal">
+      <div class="sec-label">Onde Estamos</div>
+      <h2 class="sec-title">Localização e Contato</h2>
+      <p class="sec-sub">Sediados em Fortaleza/CE, garantindo moda de qualidade em um ponto acessível para todos.</p>
+    </div>
+
+    <div class="contact-layout">
+      <div class="contact-cards reveal">
+        <div class="contact-card">
+          <div class="contact-card-label">Endereço Oficial</div>
+          <p>AV BEZERRA DE MENEZES, 2450<br>PISO 2 LOJA 506 — Presidente Kennedy<br>Fortaleza/CE | CEP: 60.325-000</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-label">Telefone e E-mail</div>
+          <p><a href="tel:+552179906036">(21) 7990-6036</a></p>
+          <p style="margin-top:4px; font-size:13px;">ADRIANOSILVMOT@GMAIL.COM</p>
+        </div>
+        <div class="contact-actions">
+          <a href="tel:+552179906036" class="btn btn-amber" style="justify-content:center;">Ligar Agora</a>
+          <a href="https://wa.me/552179906036" target="_blank" rel="noopener" class="btn btn-whats" style="justify-content:center;">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+      <div class="map-wrap reveal reveal-d1">
+        <iframe
+          src="https://www.google.com/maps?q=RUA+FRUTA-DO-PARAISO,+83,+VILA+JACUI,+SAO+PAULO+-+SP&output=embed6"
+          loading="lazy"
+          title="Localização em Fortaleza/CE"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-brand-name">ADRIANO DA SILVA MOTA</div>
+        <p>Soluções em comércio varejista de artigos do vestuário e acessórios em Fortaleza/CE. Estilo e conforto para o seu dia a dia.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Empresa</h4>
+        <a href="#topo">Início</a>
+        <a href="#sobre">Quem Somos</a>
+        <a href="#marcas">Estrutura</a>
+        <a href="#contato">Fale Conosco</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <a href="tel:+552179906036">(21) 7990-6036</a>
+        <a href="https://wa.me/552179906036" target="_blank" rel="noopener">WhatsApp Comercial</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="#" data-modal="termos-modal">Termos de Uso</a>
+        <a href="#" data-modal="politica-modal">Privacidade (LGPD)</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="ano-rodape"></span> ADRIANO DA SILVA MOTA. Todos os direitos reservados.</span>
+      <span>CNPJ: 97.483.085/0001-48</span>
+    </div>
+  </div>
+</footer>
+
+<a class="fab-whats" href="https://wa.me/552179906036" target="_blank" rel="noopener" aria-label="Fale com nosso Time Comercial no WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<div id="termos-modal" class="modal">
+  <div class="modal-panel">
+    <button class="close-btn" aria-label="Fechar">×</button>
+    <h2>Termos de Uso</h2>
+    <p>Ao utilizar este site, você concorda com os presentes Termos de Uso. As informações apresentadas têm caráter informativo e comercial. A ADRIANO DA SILVA MOTA reserva-se o direito de atualizar o catálogo de peças, promoções e coleções sem aviso prévio. O uso continuado após alterações implica na aceitação dos novos termos de serviço.</p>
+  </div>
+</div>
+
+<div id="politica-modal" class="modal">
+  <div class="modal-panel">
+    <button class="close-btn" aria-label="Fechar">×</button>
+    <h2>Política de Privacidade</h2>
+    <p>A ADRIANO DA SILVA MOTA atua em total conformidade com a Lei Geral de Proteção de Dados (LGPD). Os dados solicitados em orçamentos via e-mail ou WhatsApp são usados exclusivamente para viabilizar as compras e entregas de nossos produtos. Suas informações não são revendidas a terceiros. Para remoção de dados, contate nosso Time Comercial.</p>
+  </div>
+</div>
+
+<script>
+(function () {
+  document.getElementById('ano-rodape').textContent = new Date().getFullYear();
+
+  const header = document.getElementById('site-header');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('lit', window.scrollY > 60);
+  }, { passive: true });
+
+  document.querySelectorAll('[data-modal]').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.preventDefault();
+      const m = document.getElementById(btn.dataset.modal);
+      if (m) m.classList.add('open');
+    });
+  });
+  document.querySelectorAll('.close-btn').forEach(btn => {
+    btn.addEventListener('click', () => btn.closest('.modal').classList.remove('open'));
+  });
+  document.querySelectorAll('.modal').forEach(m => {
+    m.addEventListener('click', e => { if (e.target === m) m.classList.remove('open'); });
+  });
+
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); obs.unobserve(e.target); } });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+})();
+</script>
+</body>
+</html>
